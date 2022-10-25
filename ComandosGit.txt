@@ -15,7 +15,7 @@ echo > readme.txt -> cria um arquivo do tipo text chamado readme
 git init -> cria um repositorio
 
 git add <arquivo.extenção> <pasta> -> move um aquivo para a area de transferencia, ou palco
-gir add* -> move todos arquivos na pasta para a area de trasnferencia 
+gir add * -> move todos arquivos na pasta para a area de trasnferencia 
 
 git commit -m "commit inicial" -> faz um comit para o repositório local, cria uma versão dos arquivos que posteriormente 
 será enviada para o repositório remoto.
