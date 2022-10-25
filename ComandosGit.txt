@@ -1,0 +1,38 @@
+alguns códigos github
+
+dir -> lista todas as pastas no diretorio
+
+cd diretorioX -> entra dentro do diretorio x 
+
+// caso não queria digitar todo o nome do diretorio que se deseja acessar, digite as primeiras letras e apertar tab.
+
+mkdir diretorioX -> cria o diretorio x
+
+cd .. -> retorna para pasta externa
+
+echo > readme.txt -> cria um arquivo do tipo text chamado readme
+
+git init -> cria um repositorio
+
+git add <arquivo.extenção> <pasta> -> move um aquivo para a area de transferencia, ou palco
+gir add* -> move todos arquivos na pasta para a area de trasnferencia 
+
+git commit -m "commit inicial" -> faz um comit para o repositório local, cria uma versão dos arquivos que posteriormente 
+será enviada para o repositório remoto.
+
+git config --global user.email "igorfonseca-sc@hotmail" -> confirgura este email para todos os repositorios do git, usado quando se cria o primeiro repositorio
+
+git config --global user.name igor -> igual o e-mail
+
+gir status -> informa os status do repositorio, se houve alguma modificação que pode ser comitada
+
+git config --global --unset.email -> desabilita o email que tinha sido atribuido, para que seja inserido um novo posteriormente
+git config --global --unset.user ->mesma coisa do anterior
+
+git remote add origin <link do repositorio>  -> faz a coneção do repositorio local com o remoto
+
+git push origin master -> empurra o repositorio local para o repositorio master do link forneciido no passo anterior. 
+
+git pull origin master -> pucha os arquivos do repositorio remoto para o local
+
+git clone <linl do repositorio> -> clona um repositorio já existente
